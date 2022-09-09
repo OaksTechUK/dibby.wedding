@@ -44,7 +44,7 @@
 <main bind:clientHeight>
 	<div class="fixed-panel" style:background-image="url('static/img/{backgroundImage || backgroundImages[0]}.jpg">
 		<div class="subtitle great-vibes">
-			<p class="couple-name color-white fs-3 w-100 m-0">Dan & Libby</p>
+			<p class="couple-name color-white fs-3 w-100 m-0" style="margin-bottom:40px;">Dan & Libby</p>
 			<Countdown 
 				eventDate={ceremonyTime}
 				suffix={"until we get married!"} 
