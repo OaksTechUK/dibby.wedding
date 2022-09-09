@@ -91,6 +91,16 @@
 				<p>Those traveling from abroad, we recommend landing in to Bristol Airport.</p>
 			</div>
 		</article>
+		<article id="q-and-a" class="page">
+			<div>
+				<h1 class="title">Q & A</h1>
+			</div>
+		</article>
+		<article id="wedding-party" class="page">
+			<div>
+				<h1 class="title">Wedding Party</h1>
+			</div>
+		</article>
 	</div>
 </main>
 
