@@ -11,7 +11,7 @@
 	import Countdown from "./components/Countdown.svelte";
 	import Button from "./components/Button.svelte"
 	import { onDestroy } from 'svelte';
-	let backgroundImages = ["Northumbria2019", "Anniversary2022", "LandsEnd2017"];
+	let backgroundImages = ["Northumbria2019", "Anniversary2022", "LandsEnd2017", "London2018", "Slamdunk2022"];
 	let backgroundImage: string = "Northumbria2019";
 	let eventDate: Date = new Date(2023, 6, 27, 14, 30);
 	let y: number;
