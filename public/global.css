@@ -1,0 +1,84 @@
+html,
+body {
+    margin: 0;
+    width: 100vw;
+    font-family: proxima-nova, Helvetica Neue, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 500;
+    src: url("/static/fonts/GreatVibes-Regular.ttf");
+}
+
+.great-vibes {
+    font-family: Great Vibes;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.fs-2 {
+    font-size: 2em;
+}
+
+.fs-3 {
+    font-size: 3em;
+}
+
+.fs-4 {
+    font-size: 4em;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-sides-1 {
+    padding: 0 1em 0 1em;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.ta-center {
+    text-align: center !important;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold-first::first-letter {
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: Georgia;
+}
