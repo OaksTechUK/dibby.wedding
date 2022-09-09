@@ -53,9 +53,9 @@
 	</div>
 	<div class="scroll-panel">
 		<article id="event-info" class="page event-info">
-			<div>
+			<div class="ta-center">
 				<p class="ta-center">{formattedDate}</p>
-				<h1 class="great-vibes ta-center">{location.City}, {location.Country}</h1>
+				<h1 class="great-vibes">{location.City}, {location.Country}</h1>
 				<Countdown 
 					eventDate={ceremonyTime}
 					includeSeconds={false}
@@ -102,7 +102,7 @@
 		left: 0;
 		width: 100%; 
 		height: 100%;  
-		opacity: .1; 
+		opacity: .15; 
 		z-index: -1;
 		background-image: url('/static/img/ArnosVale.jpeg');
 		background-size: cover;
